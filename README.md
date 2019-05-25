@@ -12,21 +12,21 @@ Just download this repo and put ColorPalatte.php file wherever you want to use.
 An example code can be written as follows
  
 ``` php
-	<?php 
-	    require 'ColorPalatte.php';
-	    $c = new ColorPalette();
-		echo $c->name('FFF');
+<?php 
+    require 'ColorPalatte.php';
+    $c = new ColorPalette();
+	echo $c->name('FFF');
 ```
 Output will be
 ``` php
-	array(3) {
-	  ["hex"]=>
-	  string(7) "#FFFFFF"
-	  ["name"]=>
-	  string(5) "White"
-	  ["shade_name"]=>
-	  string(5) "White"
-	}
+array(3) {
+  ["hex"]=>
+  string(7) "#FFFFFF"
+  ["name"]=>
+  string(5) "White"
+  ["shade_name"]=>
+  string(5) "White"
+}
 ```
 
 # The MIT License (MIT)
